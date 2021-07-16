@@ -1,0 +1,8 @@
+{
+	"name": "bot name",
+	"prefix": "bot prefix",
+	"token": "bot token",
+	"commands": {
+		"read": "Sends manga chapter from readm.org by the manga number and chapter number.\nEX: read 822 1"
+	}
+}
