@@ -12,10 +12,10 @@ for now there is only one command (more comming soon)
 ![screenshot](https://github.com/ayylouu/manga-discord-bot/blob/master/screenshots/read.png)
 
 ## TODO
-- [] Heroku installation
-- [] Local hosting
-- [] Dockerfile
-- [] Search manga by name
-- [] List all manga chapters
-- [] Read manga by name
-- [] Get notified when new chapter is available
+- [ ] Heroku installation
+- [ ] Local hosting
+- [ ] Dockerfile
+- [ ] Search manga by name
+- [ ] List all manga chapters
+- [ ] Read manga by name
+- [ ] Get notified when new chapter is available
