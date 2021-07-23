@@ -3,8 +3,27 @@
 ## What is manga-discord-bot?
 manga-discord-bot (temporary name) is a discord bot to read manga from [readm.org](https://readm.org/)
 
-## configuration
-configure the bot name, prefix, token in the [config.json](https://github.com/ayyloyy/manga-discord-bot/blob/master/config.json)
+## Installation
+
+### Locally
+clone the repo:
+
+```bash
+git clone https://github.com/ayylouu/manga-discord-bot.git
+cd manga-discord-bot
+```
+
+install requirements:
+
+```bash
+pip install beautifulsoup4
+```
+
+start the bot:
+
+```bash
+python ./main.py
+```
 
 ## Usage
 for now there is only one command (more comming soon)
