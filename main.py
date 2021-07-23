@@ -44,7 +44,7 @@ async def manga(ctx, manga_number):
 
     manga_cover = f"https://readm.org/{soup.find_all('img', class_ = 'series-profile-thumb')[0].get('src')}"
 
-    manga_description = SUMMARY.find_all('p', id = "")[0].string
+    # manga_description = SUMMARY.find_all('p', id = "")[0].string
 
     genres_list = []
     for a in SUMMARY.find_all('a'):
@@ -56,7 +56,7 @@ async def manga(ctx, manga_number):
     last_chapter = soup.find_all('a', class_ = 'item active')[-1]
     last_chapter = str(last_chapter).split()[-4]
 
-    embed_var = discord.Embed(title = manga_name, url = url, description = manga_description, color = 0X19A6FF)
+    embed_var = discord.Embed(title = manga_name, url = url, color = 0X19A6FF)
     embed_var.set_thumbnail(url = manga_cover)
     embed_var.add_field(name = "Genres:", value = genres, inline=False)
     embed_var.add_field(name = "First chapter:", value = first_chapter)
