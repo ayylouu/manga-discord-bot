@@ -21,10 +21,10 @@ pip install beautifulsoup4
 ```
 
 Create a discord bot ([guide](https://discord.com/developers/docs/intro#bots-and-apps)) and copy the token.
-then paste your token in [config.json](https://github.com/ayylouu/manga-discord-bot/blob/master/config.json):
+then paste your token in [config.py](https://github.com/ayylouu/manga-discord-bot/blob/master/config.py):
 
-```json
-{
+```python
+CONFIG = {
 	"token": "your token"
 }
 ```
@@ -41,10 +41,10 @@ For now there is only one command (more comming soon)
 ![screenshot](https://github.com/ayylouu/manga-discord-bot/blob/master/screenshots/read.png)
 
 ## TODO
-- [ ] Heroku installation
 - [X] Local hosting
+- [X] Get informations about manga
+- [ ] Heroku installation
 - [ ] Dockerfile
 - [ ] Search manga by name
-- [ ] List all manga chapters
 - [ ] Read manga by name
 - [ ] Get notified when new chapter is available
