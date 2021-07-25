@@ -1,14 +1,13 @@
 #!/usr/bin/env python3
 
-import json
 import discord
 import requests
 from bs4 import BeautifulSoup
 from discord.ext.commands import Bot
 
-CONFIG_FILE = open('config.json', 'r')
-CONFIG = json.load(CONFIG_FILE)
-HELP = CONFIG['commands']
+from config import CONFIG
+from help import HELP
+
 bot = Bot(command_prefix = CONFIG['prefix'])
 
 @bot.event
