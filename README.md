@@ -36,9 +36,11 @@ python ./main.py
 ```
 
 ## Usage
-For now there is only one command (more comming soon)
-+ read manga_number chapter_number
+For now there is only two command (more comming soon)
++ ~ read manga_number chapter_number
 ![screenshot](https://github.com/ayylouu/manga-discord-bot/blob/master/screenshots/read.png)
++ ~ manga manga_number
+![screenshot](https://github.com/ayylouu/manga-discord-bot/blob/master/screenshots/manga.png)
 
 ## TODO
 - [X] Local hosting
